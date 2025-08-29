@@ -39,6 +39,12 @@ _ASCII text available(English/Caesar cipher/)_
 index:10  
 `CYWO NKIC IYE LVYYW,CYWO NKIC IYE QBYG BYYDC.`
 
+***
+## 更新日志
+### v1.0 
+加入了凯撒模式，允许使用GBK,GB2312,Shift-JIS和Big5四种方式进行加密
+### v2.0
+更新了GUI界面  
 
 
 

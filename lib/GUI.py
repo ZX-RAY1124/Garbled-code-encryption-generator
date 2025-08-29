@@ -28,7 +28,7 @@ class GUI(tk.Frame):
         self.label_0 = tk.Label(self.root, text="乱码加密系统 v1.0")
         self.label_1 = tk.Label(self.section_1,text="所有操作均不可撤销",anchor='w', justify='left',highlightcolor='red',font=("微软雅黑",10 ,"bold"))
         self.label_2 = tk.Label(self.section_2,text="纯英文文本请选择Caesar")
-        self.label_intro = tk.Label(self.root,text="欢迎使用乱码加密系统，对于utf-8文本，可以对16进制进行特定操作，然后用另外一种编码进行读取生成乱码\n对于英文文本，使用凯撒密码进行加密生成乱码       Credits: Program made by ZX_RAYER 谢朝旭",anchor='w', justify='left')
+        self.label_intro = tk.Label(self.root,text="欢迎使用乱码加密系统，对于utf-8文本，可以对16进制进行特定操作，然后用另外一种编码进行读取生成乱码\n对于英文文本，使用凯撒密码进行加密生成乱码       Credits: Program made by ZX_RAYER",anchor='w', justify='left')
         self.button_1 = tk.Button(self.section_1,text="从text中读取",width=10,height=1,command=self.readfromtext)
         self.button_2 = tk.Button(self.section_1, text="清除", width=10, height=1,command=self.clear)
 
